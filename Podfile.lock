@@ -1,0 +1,13 @@
+PODS:
+  - Masonry (0.6.3)
+  - SYKit (0.0.4)
+
+DEPENDENCIES:
+  - Masonry
+  - SYKit
+
+SPEC CHECKSUMS:
+  Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
+  SYKit: dbb84435e8b85b8adea1c76465b80b2cb3d38b4c
+
+COCOAPODS: 0.38.2
