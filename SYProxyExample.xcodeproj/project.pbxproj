@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E34119279D7040D2F2909C8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 398C10F07936407E34C72D85 /* libPods.a */; };
+		39941B9A7520283F13A552C3 /* libPods-SYProxyExample-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2D6E0077083610930560FD /* libPods-SYProxyExample-tvOS.a */; };
+		5160EDF2789007F1E350D33F /* libPods-SYProxyExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A81282ACBA96274E1E4F926 /* libPods-SYProxyExample.a */; };
 		973E357E1BBE83E5000F5BBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 973E357D1BBE83E5000F5BBF /* main.m */; };
 		973E35811BBE83E5000F5BBF /* SYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 973E35801BBE83E5000F5BBF /* SYAppDelegate.m */; };
 		973E35871BBE83E5000F5BBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 973E35851BBE83E5000F5BBF /* Main.storyboard */; };
@@ -17,6 +18,11 @@
 		973E35A81BBE96DE000F5BBF /* error.html in Resources */ = {isa = PBXBuildFile; fileRef = 973E35A71BBE96DE000F5BBF /* error.html */; };
 		973E35AB1BBE96E5000F5BBF /* SYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 973E35AA1BBE96E5000F5BBF /* SYViewController.m */; };
 		973E35B01BBE9A8A000F5BBF /* NSURL+Google.m in Sources */ = {isa = PBXBuildFile; fileRef = 973E35AD1BBE9A8A000F5BBF /* NSURL+Google.m */; };
+		97D0000021A5785A004791E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D0FFFF21A5785A004791E5 /* ViewController.m */; };
+		97D0000321A5785A004791E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97D0000121A5785A004791E5 /* Main.storyboard */; };
+		97D0000521A5785C004791E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97D0000421A5785C004791E5 /* Assets.xcassets */; };
+		97D0000821A5785C004791E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D0000721A5785C004791E5 /* main.m */; };
+		97D0FFFD21A5785A004791E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D0FFFC21A5785A004791E5 /* AppDelegate.m */; };
 		97DACE051BBEAA080055256D /* SYProxyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DACDFF1BBEAA080055256D /* SYProxyModel.m */; };
 		97DACE061BBEAA080055256D /* SYProxySessionChallengeSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DACE011BBEAA080055256D /* SYProxySessionChallengeSender.m */; };
 		97DACE071BBEAA080055256D /* SYProxyURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DACE031BBEAA080055256D /* SYProxyURLProtocol.m */; };
@@ -25,8 +31,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0AAFAAAA1500FE8E8F16BC83 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		398C10F07936407E34C72D85 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		222559F236DFE1D698F12B57 /* Pods-SYProxyExample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYProxyExample-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SYProxyExample-tvOS/Pods-SYProxyExample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		3A81282ACBA96274E1E4F926 /* libPods-SYProxyExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SYProxyExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45619CA2204E703E29370A2B /* Pods-SYProxyExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYProxyExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SYProxyExample/Pods-SYProxyExample.debug.xcconfig"; sourceTree = "<group>"; };
+		61C4AE62FD47FF819504DC28 /* Pods-SYProxyExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYProxyExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-SYProxyExample/Pods-SYProxyExample.release.xcconfig"; sourceTree = "<group>"; };
+		70934E6DFCE08063BB72CEFF /* Pods-SYProxyExample-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYProxyExample-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-SYProxyExample-tvOS/Pods-SYProxyExample-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		973E35781BBE83E5000F5BBF /* SYProxyExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYProxyExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		973E357C1BBE83E5000F5BBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		973E357D1BBE83E5000F5BBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +51,15 @@
 		973E35AA1BBE96E5000F5BBF /* SYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYViewController.m; sourceTree = "<group>"; };
 		973E35AC1BBE9A8A000F5BBF /* NSURL+Google.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Google.h"; sourceTree = "<group>"; };
 		973E35AD1BBE9A8A000F5BBF /* NSURL+Google.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Google.m"; sourceTree = "<group>"; };
+		97D0000221A5785A004791E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97D0000421A5785C004791E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97D0000621A5785C004791E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97D0000721A5785C004791E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97D0FFF921A5785A004791E5 /* SYProxyExample-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SYProxyExample-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97D0FFFB21A5785A004791E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		97D0FFFC21A5785A004791E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		97D0FFFE21A5785A004791E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		97D0FFFF21A5785A004791E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		97DACDFE1BBEAA080055256D /* SYProxyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYProxyModel.h; sourceTree = "<group>"; };
 		97DACDFF1BBEAA080055256D /* SYProxyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYProxyModel.m; sourceTree = "<group>"; };
 		97DACE001BBEAA080055256D /* SYProxySessionChallengeSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYProxySessionChallengeSender.h; sourceTree = "<group>"; };
@@ -52,7 +70,7 @@
 		97DACE091BBEAE440055256D /* SYEditProxyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYEditProxyViewController.m; sourceTree = "<group>"; };
 		97F4C5D01BBFF1BD007CFD33 /* SYProxyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYProxyCell.h; sourceTree = "<group>"; };
 		97F4C5D11BBFF1BD007CFD33 /* SYProxyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYProxyCell.m; sourceTree = "<group>"; };
-		AD4009D41F94E7F5272E6755 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		9D2D6E0077083610930560FD /* libPods-SYProxyExample-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SYProxyExample-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,19 +78,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E34119279D7040D2F2909C8 /* libPods.a in Frameworks */,
+				5160EDF2789007F1E350D33F /* libPods-SYProxyExample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D0FFF621A5785A004791E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39941B9A7520283F13A552C3 /* libPods-SYProxyExample-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3FC51C02458FBD9B7131BE87 /* Frameworks */ = {
+		0C87ACD08A5910ACC91D8826 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				398C10F07936407E34C72D85 /* libPods.a */,
+				3A81282ACBA96274E1E4F926 /* libPods-SYProxyExample.a */,
+				9D2D6E0077083610930560FD /* libPods-SYProxyExample-tvOS.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		685B696318CCB6D7EF76493D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45619CA2204E703E29370A2B /* Pods-SYProxyExample.debug.xcconfig */,
+				61C4AE62FD47FF819504DC28 /* Pods-SYProxyExample.release.xcconfig */,
+				222559F236DFE1D698F12B57 /* Pods-SYProxyExample-tvOS.debug.xcconfig */,
+				70934E6DFCE08063BB72CEFF /* Pods-SYProxyExample-tvOS.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		973E356F1BBE83E5000F5BBF = {
@@ -80,9 +118,10 @@
 			children = (
 				97DACDFB1BBEAA080055256D /* SYProxy */,
 				973E357A1BBE83E5000F5BBF /* SYProxyExample */,
+				97D0FFFA21A5785A004791E5 /* SYProxyExample-tvOS */,
 				973E35791BBE83E5000F5BBF /* Products */,
-				A1A9F5C9ED10B135FA92A5D5 /* Pods */,
-				3FC51C02458FBD9B7131BE87 /* Frameworks */,
+				685B696318CCB6D7EF76493D /* Pods */,
+				0C87ACD08A5910ACC91D8826 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				973E35781BBE83E5000F5BBF /* SYProxyExample.app */,
+				97D0FFF921A5785A004791E5 /* SYProxyExample-tvOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,6 +199,21 @@
 			name = Categories;
 			sourceTree = "<group>";
 		};
+		97D0FFFA21A5785A004791E5 /* SYProxyExample-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				97D0FFFB21A5785A004791E5 /* AppDelegate.h */,
+				97D0FFFC21A5785A004791E5 /* AppDelegate.m */,
+				97D0FFFE21A5785A004791E5 /* ViewController.h */,
+				97D0FFFF21A5785A004791E5 /* ViewController.m */,
+				97D0000121A5785A004791E5 /* Main.storyboard */,
+				97D0000421A5785C004791E5 /* Assets.xcassets */,
+				97D0000621A5785C004791E5 /* Info.plist */,
+				97D0000721A5785C004791E5 /* main.m */,
+			);
+			path = "SYProxyExample-tvOS";
+			sourceTree = "<group>";
+		};
 		97DACDFB1BBEAA080055256D /* SYProxy */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,15 +227,6 @@
 			path = SYProxy;
 			sourceTree = "<group>";
 		};
-		A1A9F5C9ED10B135FA92A5D5 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0AAFAAAA1500FE8E8F16BC83 /* Pods.debug.xcconfig */,
-				AD4009D41F94E7F5272E6755 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -188,11 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 973E359B1BBE83E5000F5BBF /* Build configuration list for PBXNativeTarget "SYProxyExample" */;
 			buildPhases = (
-				5AFFDB4BC0D2D6D9E052370F /* Check Pods Manifest.lock */,
+				C747F967D42AA922ED054095 /* [CP] Check Pods Manifest.lock */,
 				973E35741BBE83E5000F5BBF /* Sources */,
 				973E35751BBE83E5000F5BBF /* Frameworks */,
 				973E35761BBE83E5000F5BBF /* Resources */,
-				F3475C21EF96995DEBFC02D5 /* Copy Pods Resources */,
+				1E89371EDDA74A47DC880A01 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -201,6 +247,24 @@
 			name = SYProxyExample;
 			productName = SYProxyExample;
 			productReference = 973E35781BBE83E5000F5BBF /* SYProxyExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97D0FFF821A5785A004791E5 /* SYProxyExample-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97D0000921A5785C004791E5 /* Build configuration list for PBXNativeTarget "SYProxyExample-tvOS" */;
+			buildPhases = (
+				B1E76B2E45D0F12969D8BCC5 /* [CP] Check Pods Manifest.lock */,
+				97D0FFF521A5785A004791E5 /* Sources */,
+				97D0FFF621A5785A004791E5 /* Frameworks */,
+				97D0FFF721A5785A004791E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SYProxyExample-tvOS";
+			productName = "SYProxyExample-tvOS";
+			productReference = 97D0FFF921A5785A004791E5 /* SYProxyExample-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -215,6 +279,12 @@
 				TargetAttributes = {
 					973E35771BBE83E5000F5BBF = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 79RY8264V4;
+					};
+					97D0FFF821A5785A004791E5 = {
+						CreatedOnToolsVersion = 10.1;
+						DevelopmentTeam = 79RY8264V4;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -232,6 +302,7 @@
 			projectRoot = "";
 			targets = (
 				973E35771BBE83E5000F5BBF /* SYProxyExample */,
+				97D0FFF821A5785A004791E5 /* SYProxyExample-tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -248,37 +319,82 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		97D0FFF721A5785A004791E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97D0000521A5785C004791E5 /* Assets.xcassets in Resources */,
+				97D0000321A5785A004791E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5AFFDB4BC0D2D6D9E052370F /* Check Pods Manifest.lock */ = {
+		1E89371EDDA74A47DC880A01 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SYProxyExample/Pods-SYProxyExample-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/SYKit/SYSearchField.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SYSearchField.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SYProxyExample/Pods-SYProxyExample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F3475C21EF96995DEBFC02D5 /* Copy Pods Resources */ = {
+		B1E76B2E45D0F12969D8BCC5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SYProxyExample-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C747F967D42AA922ED054095 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SYProxyExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -301,6 +417,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		97D0FFF521A5785A004791E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97D0000021A5785A004791E5 /* ViewController.m in Sources */,
+				97D0000821A5785C004791E5 /* main.m in Sources */,
+				97D0FFFD21A5785A004791E5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -318,6 +444,14 @@
 				973E358B1BBE83E5000F5BBF /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		97D0000121A5785A004791E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97D0000221A5785A004791E5 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -407,9 +541,10 @@
 		};
 		973E359C1BBE83E5000F5BBF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0AAFAAAA1500FE8E8F16BC83 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 45619CA2204E703E29370A2B /* Pods-SYProxyExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 79RY8264V4;
 				INFOPLIST_FILE = SYProxyExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -419,13 +554,89 @@
 		};
 		973E359D1BBE83E5000F5BBF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD4009D41F94E7F5272E6755 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 61C4AE62FD47FF819504DC28 /* Pods-SYProxyExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 79RY8264V4;
 				INFOPLIST_FILE = SYProxyExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		97D0000A21A5785C004791E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 222559F236DFE1D698F12B57 /* Pods-SYProxyExample-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 79RY8264V4;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "SYProxyExample-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.syan.SYProxyExample-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+			};
+			name = Debug;
+		};
+		97D0000B21A5785C004791E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70934E6DFCE08063BB72CEFF /* Pods-SYProxyExample-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79RY8264V4;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "SYProxyExample-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.syan.SYProxyExample-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.1;
 			};
 			name = Release;
 		};
@@ -446,6 +657,15 @@
 			buildConfigurations = (
 				973E359C1BBE83E5000F5BBF /* Debug */,
 				973E359D1BBE83E5000F5BBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97D0000921A5785C004791E5 /* Build configuration list for PBXNativeTarget "SYProxyExample-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97D0000A21A5785C004791E5 /* Debug */,
+				97D0000B21A5785C004791E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

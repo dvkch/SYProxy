@@ -1,13 +1,27 @@
 PODS:
   - Masonry (0.6.3)
   - SYKit (0.0.4)
+  - SYProxy (1.0.1)
 
 DEPENDENCIES:
   - Masonry
   - SYKit
+  - SYProxy (from `./`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - SYKit
+
+EXTERNAL SOURCES:
+  SYProxy:
+    :path: "./"
 
 SPEC CHECKSUMS:
   Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
   SYKit: dbb84435e8b85b8adea1c76465b80b2cb3d38b4c
+  SYProxy: cf478a74078d2409d8415f8711356f1d36b673a6
 
-COCOAPODS: 0.38.2
+PODFILE CHECKSUM: 2e329f2ff5c762dc31d19fc6762e738d8780f250
+
+COCOAPODS: 1.5.3

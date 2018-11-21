@@ -26,7 +26,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setTitle:@"SYProxy"];
-    [self.searchField setBackgroundColor:[UIColor defaultSYSearchFieldColor]];
     [self.searchField setLoupeColor:[UIColor grayColor]];
 }
 

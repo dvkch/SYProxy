@@ -28,7 +28,3 @@ IB_DESIGNABLE
 - (void)showLoadingIndicator:(BOOL)showLoadingIndicator;
 
 @end
-
-@interface UIColor (SYSearchField)
-+ (UIColor *)defaultSYSearchFieldColor;
-@end
