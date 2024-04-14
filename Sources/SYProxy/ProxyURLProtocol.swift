@@ -46,13 +46,25 @@ public class ProxyURLProtocol: URLProtocol {
             print("Using proxy \(proxy.host):\(proxy.port) to load \(url.absoluteString)")
         }
         
-        var proxyDictionary = [String: Any]()
-        proxyDictionary["HTTPEnable"] = true
-        proxyDictionary[kCFStreamPropertyHTTPProxyHost as String] = proxy.host
-        proxyDictionary[kCFStreamPropertyHTTPProxyPort as String] = proxy.port
-
         let configuration = URLSessionConfiguration.ephemeral
-        configuration.connectionProxyDictionary = proxyDictionary
+        configuration.connectionProxyDictionary = [
+            kCFNetworkProxiesHTTPEnable: true,
+            kCFNetworkProxiesHTTPProxy: proxy.host,
+            kCFNetworkProxiesHTTPPort: proxy.port
+        ]
+        
+        #if os(macOS)
+        configuration.connectionProxyDictionary?[kCFNetworkProxiesHTTPSEnable] = true
+        configuration.connectionProxyDictionary?[kCFNetworkProxiesHTTPSProxy] = proxy.host
+        configuration.connectionProxyDictionary?[kCFNetworkProxiesHTTPSPort] = proxy.port
+        #endif
+        
+        if let username = proxy.username, !username.isEmpty {
+            configuration.connectionProxyDictionary?[kCFProxyUsernameKey] = username
+            if let password = proxy.password, !password.isEmpty {
+                configuration.connectionProxyDictionary?[kCFProxyPasswordKey] = password
+            }
+        }
         
         let session = URLSession(configuration: configuration, delegate: self, delegateQueue: OperationQueue.main)
         currentTask = session.dataTask(with: request)
