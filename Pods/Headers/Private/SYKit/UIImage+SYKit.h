@@ -1,1 +1,0 @@
-../../../SYKit/UIImage+SYKit.h
